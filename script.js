@@ -77,6 +77,7 @@ $(document).ready(function () {
         Compare();
         lettersUsed=[]
         docLetters.text(lettersUsed.join(""));
+        guess=10;
     }
 
     gameStart();
